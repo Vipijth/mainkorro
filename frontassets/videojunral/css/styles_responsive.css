@@ -1,0 +1,2412 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 2560px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		width: 2560px !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		width: 280px !important;
+		height: 230px !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 598px !important;
+		height: 423px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 250px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 36px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 32px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 65px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 800px !important;
+		clear: both !important; 
+	}
+
+	#promo_video {
+		width: 1000px !important;
+		height: 800px !important;
+		clear: both !important;
+	}
+
+	#video_quiz {
+		width: 1000px !important;
+		height: 800px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 220px !important;
+		height: 125px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 65px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 35px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 45px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 220px !important;
+		height: 125px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 65px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 35px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 45px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 220px !important;
+		height: 125px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 65px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 30px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 42px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 86px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1751px) and (max-width: 1920px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		max-width: 100% !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: no-repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		width: 280px !important;
+		height: 230px !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 598px !important;
+		height: 423px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 250px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 36px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 32px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 65px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1750px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		max-width: 100% !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		width: 280px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 598px !important;
+		height: 423px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 250px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 36px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 32px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 65px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 800px !important;
+		height: 372px !important;
+	}
+
+	#promo_video {
+		width: 800px !important;
+		height: 372px !important;
+	}
+
+	#video_quiz {
+		width: 532px !important;
+		height: 372px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment.png") !important;
+		background-repeat: no-repeat !important;
+		width: 475px !important;
+		height: 231px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 20px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1351px) and (max-width: 1439px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		max-width: 100% !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		width: 280px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 430px !important;
+		height: 310px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 250px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 36px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 32px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 65px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 800px !important;
+		height: 372px !important;
+	}
+
+	#promo_video {
+		width: 800px !important;
+		height: 372px !important;
+	}
+
+	#video_quiz {
+		width: 100% !important;
+		height: 372px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1350px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		max-width: 100% !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		width: 280px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 430px !important;
+		height: 310px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 250px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 36px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 32px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 65px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		max-width: 100% !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		width: 280px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 430px !important;
+		height: 310px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 250px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 36px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 32px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 65px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		max-width: 100% !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		max-width: 100% !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		clear: both !important;
+		display: none !important;
+	}
+	
+	#img_lina {
+		width: 598px !important;
+		height: 423px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 430px !important;
+		height: 310px !important;
+		padding: 50px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 26px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 22px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 45px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 28px !important;
+		color: #FAFAFA;
+		font-weight: 600;
+		padding-top: 78px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 22px;
+		color: #FAFAFA;
+		font-weight: 600;
+		text-align: center !important;
+		padding-top: 10px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1099px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		width: 1024px !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		width: 1024px !important;
+		height: auto !important;
+		background-image: url("../images/bg.png") !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		clear: both !important;
+		display: none !important;
+	}
+	
+	#img_lina {
+		width: 298px !important;
+		height: 223px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 650px !important;
+		height: 210px !important;
+		padding: 200px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 25px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 23px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 45px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 22px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		padding-top: 0px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 20px;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		width: 1024px !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		width: 1024px !important;
+		height: auto !important;
+		background-image: url("../images/bg.png") !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		clear: both !important;
+		display: none !important;
+	}
+	
+	#img_lina {
+		width: 280px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 650px !important;
+		height: 210px !important;
+		padding: 200px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 25px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 23px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 45px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 22px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		padding-top: 0px;
+		clear: both;
+	}
+
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 20px;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		width: 768px !important;
+		height: auto !important;
+		clear: both !important;
+		overflow: hidden;
+	}
+	
+	#bg_video {
+		width: 768px !important;
+		height: auto !important;
+		background-image: url("../images/bg.png") !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		max-width: 100% !important;
+		display: none !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 250px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 250px !important;
+		height: 210px !important;
+		padding: 10px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 20px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 12px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 25px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+	
+	.parent img {
+		width: 120px !important;
+		height: 100px !important;
+
+		clear: both !important;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 12px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 10px;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}
+
+@media only screen and (max-width: 860px) and (min-width: 768px) and (orientation : landscape) {
+	
+	@font-face {
+		font-family: "segoe";
+		src: url("../fonts/Segoe UI.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Italic.ttf") format("truetype") !important;
+		src: url("../fonts/Segoe UI Bold Italic.ttf") format("truetype") !important;
+	}
+
+	@font-face {
+		font-family: "mistral";
+		src: url("../fonts/MISTRAL.TTF") format("truetype") !important;
+	}
+	
+	body {
+		font-family: "segoe", "mistral", sans-serif !important;
+		width: 860px !important;
+		height: auto !important;
+		clear: both !important;
+	}
+	
+	#bg_video {
+		width: 860px !important;
+		height: auto !important;
+		background-image: url("../images/bg.png") !important;
+		background-repeat: repeat !important;
+	}
+	
+	#bg_video::-webkit-scrollbar {
+		display: none !important;
+		-ms-overflow-style: none !important;
+		scrollbar-width: none !important;
+	}
+	
+	.img_cards {
+		max-width: 100% !important;
+		display: none !important;
+		clear: both !important;
+	}
+	
+	#img_lina {
+		width: 250px !important;
+		height: 210px !important;
+		clear: both !important;
+	}
+	
+	#img_interview {
+		width: 250px !important;
+		height: 210px !important;
+		padding: 10px 0 !important;
+		clear: both !important;
+	}
+	
+	.parent h5 {
+		font-family: "segoe";
+		font-size: 20px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+	
+	.parent h6 {
+		font-family: "segoe" !important;
+		font-size: 12px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		clear: both;
+	}
+
+	.parent h4 {
+		font-family: "mistral" !important;
+		font-size: 25px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		font-style: normal !important;
+		clear: both;
+	}
+	
+	.parent img {
+		width: 120px !important;
+		height: 100px !important;
+		clear: both !important;
+	}
+
+	.interview h5 {
+		font-family: "segoe" !important;
+		font-size: 12px !important;
+		color: #FAFAFA;
+		font-weight: 400;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	.interview h6 {
+		font-family: "segoe" !important;
+		font-size: 10px;
+		color: #FAFAFA;
+		font-weight: 400;
+		text-align: center !important;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	.promo_img {
+		width: 1000px !important;
+		height: 572px !important;
+	}
+
+	#promo_video {
+		width: 1016px !important;
+		height: 572px !important;
+	}
+
+	#video_quiz {
+		width: 732px !important;
+		height: 572px !important;
+		background-color: #FFF8AF !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 10px !important;
+		margin: 0 18px !important;
+	}
+
+	#video_quiz .segment {
+		background-image: url("../images/player/segment@2x.png") !important;
+		background-repeat: no-repeat !important;
+		width: 275px !important;
+		height: 131px !important;
+	}
+
+	.segment h6 {
+		font-family: "segoe" !important;
+		font-size: 25px;
+		color: #FAFAFA;
+		font-weight: 600;
+	}
+
+	.seg_para p {
+		font-family: "segoe" !important;
+		font-size: 31px;
+		color: #30347D;
+		font-weight: 600;
+		text-align: center !important;
+	}
+
+
+	.ques_disable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #838384 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_disable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_disable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.ques_enable {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.ques_enable p {
+		font-family: "segoe" !important;
+		font-size: 18px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.ques_enable h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.video_duration {
+		width: 122px !important;
+		height: 82px !important;
+		background-color: #6101F0 !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+		border-radius: 41px !important;
+	}
+
+	.video_duration p {
+		font-family: "segoe" !important;
+		font-size: 15px;
+		color: #FAFAFA !important;
+		text-align: center !important;
+	}
+
+	.video_duration h4 {
+		font-family: "segoe" !important;
+		font-size: 28px;
+		color: #32C7DB !important;
+		text-align: center !important;
+	}
+
+	.player_controls {
+		background-color: #6101F0 !important;
+		border-radius: 38px !important;
+		width: 216px !important;
+		height: 66px !important;
+		box-shadow: 0 3 6 3 #000000 !important;
+	}
+
+}

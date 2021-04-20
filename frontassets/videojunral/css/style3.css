@@ -1,0 +1,617 @@
+
+figure {
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 100%;
+    animation-name: acts1;
+  animation-duration:6s;
+}
+@keyframes acts1 {
+  from { opacity: 0; }
+  to { opacity: 1.2 }
+}
+
+#disablebutton{
+  width:80px;height:30px;background:#707070; color:#fff;
+    font-family:Segoe UI semibold;
+    border-radius: 20px;
+}
+
+#enablebutton{
+  width:80px;height:30px;background:#fff; color:#30347D;
+    font-family:Segoe UI semibold;
+    border-radius: 20px;
+}
+
+#sumbitbutton{
+  width:80px;height:30px;background:#fff; color:#30347D;
+    font-family:Segoe UI semibold;
+    border-radius: 20px;
+}
+
+
+.segmentbutton{
+
+width:140px !important;
+padding: 4px 10px !important;
+height:40px !important;
+border-radius: 20px !important;
+background:#353740 !important;
+font-family:segoe ui semibold;
+color:white;
+border:3px solid #32C7DB !important;
+
+
+}
+
+#qfont{
+
+font-family:segoe ui semibold !important;
+font-size: 18px;
+color:#30347D;
+}
+video {
+  display: block;
+  width: 100%;
+  height:auto;
+  border-radius: .5em .5em 0em 0em;
+}
+#logo{
+  height:160px;background-image:url('../images/logo/korologo.jpeg');background-size:80%;
+  background-repeat: no-repeat;
+}
+button{
+
+font-family:Segoe UI semibold;
+border:none;
+background:#6101F0;
+color:#fff;
+border-radius:50%;
+width:30px;
+height:30px;
+margin:2px;
+
+}
+
+button:focus{
+outline:none;
+border:none;
+}
+video:focus{
+outline:none;
+border:none;
+}
+figcaption {
+  align-items: center;
+  background: #eaeaea;
+  display: grid;
+  grid-gap: 1rem;
+border-radius: 0em 0em .5em .5em;
+  padding: .5rem;
+}
+
+
+#dirbutlast{
+  width:250px;height:86px; padding:37px 37px;
+  border-radius: 20px !important;
+ background-image: url('../images/player/last.png') !important;
+  color:white;
+background-size:cover;
+font-family:Segoe UI semibold;
+
+}
+
+
+#dirbutnext{
+  width:250px;height:86px; padding:37px 50px;
+  text-align: right;
+  border-radius: 20px !important;
+ background-image: url('../images/player/nextt.png') !important;
+  color:white;
+background-size:cover;
+font-family:Segoe UI semibold;
+color:white;
+
+
+}
+
+#table{
+  width:80%;
+  
+  padding-top: 20px
+}
+#videocol{
+  background:#FFF8AF; 
+  height:340px;
+  margin:10px;
+  border-radius: 5px;
+  padding-top: 3%;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    animation-name: acts2;
+  animation-duration:4s;
+}
+@keyframes acts2 {
+  from { opacity: 0; }
+  to { opacity: 1.2 }
+}
+#sub{
+  background:#FFF8AF; 
+  height:340px;
+  margin:10px;
+  border-radius: 5px;
+  padding-top: 3%;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#videocol2{
+  background:#FFF8AF; 
+  height:340px;
+  margin:10px;
+  border-radius: 5px;
+  padding-top: 1%;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.but{
+  
+  background: white;
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+  color:#30347D;
+  font-family:Segoe UI semibold;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     transition: 1s;
+
+          animation-name: acts;
+  animation-duration:3s;
+}
+@keyframes acts {
+  from { transform: scale(.1,.1); }
+  to { transform: scale(1,1); }
+}
+
+#bottomrow{
+         animation-name: actv;
+  animation-duration:2s;
+}
+@keyframes actv {
+  from { transform: scale(.1,.1); }
+  to { transform: scale(1,1); }
+}
+
+#color{
+         animation-name: actc;
+  animation-duration:4s;
+   animation-iteration-count: infinite;
+}
+@keyframes actc {
+  0% { color:white; }
+
+  100% { color:#36E2E1; }
+}
+.but:hover{
+  transform: rotate(360deg);
+  transition: 2s;
+
+}
+
+.butactive:hover{
+  transform: rotate(-360deg);
+  transition: 2s;
+
+}
+.butactive{
+ 
+  background: white;
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+    color:#30347D;
+      transition: 1s;
+  font-family:Segoe UI semibold;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     animation-name: act;
+  animation-duration:2s;
+  
+}
+@keyframes act {
+  from { transform: scale(.1,.1); border:3px solid #35D5DE;}
+  to { transform: scale(1.1,1.1); border:3px solid #35D5DE;}
+}
+
+#qstnbottom{
+
+
+  height: 86px;
+  border-radius: 20px !important;
+
+  padding:20px;
+}
+#qstnbottomin{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+font-family:Segoe UI semibold;
+color:white;
+font-size: 12px;
+  width:300px;
+  height: 56px;
+  border-radius: 25px !important;
+  background: #6101F0;
+
+}
+
+#head{
+
+  font-family: segoe ui semibold;color:#fff;font-size:20px
+}
+
+a:focus{text-decoration: none}
+a:hover{text-decoration: none}
+
+@media only screen and (max-width: 500px) {
+
+#table{
+display: none
+}
+}
+@media only screen and (max-width: 900px) {
+#videocol{
+ 
+  height:390px !important;
+
+
+}
+#sub{
+ 
+  height:390px !important;
+
+
+}
+#videocol2{
+ 
+  height:390px !important;
+
+
+}
+#table{
+width: 110%
+
+}
+
+
+
+#qstnbottomin{
+display:none; 
+}
+
+
+
+}
+
+
+
+
+  @media only screen and (max-width: 1920px) {
+
+
+  }
+
+    @media only screen and (max-width: 1600px) {
+      body{overflow-y: hidden;}
+      #numrow{
+         height:80px !important;padding-top: 10px !important
+      }
+#bottomrow{
+
+  padding-top: 0px !important;
+}
+
+.segmentbutton{
+
+width:140px !important;
+padding: 4px 10px !important;
+height:40px !important;
+font-size: 16px;
+
+
+
+}
+
+#videocol{
+height:340px !important;
+  margin:10px !important;
+
+}
+#sub{
+
+  margin:10px!important;
+
+}
+#videocol2{
+
+  margin:10px !important;
+height:auto !important;
+}
+#logos{
+  height:110px !important;
+  width:200px !important;
+}
+#qfont{
+
+font-size:12px !important;
+  }
+  #table{
+    width:80% !important;
+  }
+
+.but{
+  
+ height:30px !important;
+  width:30px!important;
+  border-radius: 50%;
+ font-size: 16px !important;
+}
+
+.butactive{
+  border:3px solid #35D5DE;
+  background: white;
+  height:30px !important; 
+  width:30px !important;
+  font-size: 16px !important;
+
+}
+#dirbutlast{
+  width:250px !important;height:86px !important; padding:37px 37px!important;
+
+ background-image: url('../images/player/last.png') !important;
+ 
+background-size:cover;
+font-size:16px!important;
+
+}
+
+#head{
+height:10px !important;padding: 30px 50px !important;
+  font-family: segoe ui semibold;color:#fff;font-size:18px !important;
+}
+
+#dirbutnext{
+  width:250px !important;height:86px  !important;; padding:37px 50px  !important;;
+font-size:16px  !important;
+
+ background-image: url('../images/player/nextt.png') !important;
+
+background-size:cover;
+
+
+
+}
+#videocol{
+
+height:340px !important;;
+
+}
+#sub{
+
+height:340px !important;;
+
+}
+#videocol2{
+
+height:340px !important;;
+
+}
+#qstnbottomin{
+font-size: 14px !important;
+  width:300px !important;
+
+  height: 56px !important;
+
+
+
+}
+  }
+
+
+
+
+
+
+
+@media only screen and (max-width: 3860px) {
+  #logos{
+  height:210px ;
+  width:367px;
+}
+     #numrow{
+         height:auto !important;padding-top: 20px !important;
+      }
+
+  .but{
+  
+
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  font-size: 26px;
+
+
+}
+
+.butactive{
+  border:3px solid #35D5DE;
+  background: white;
+  height:60px;
+  width:60px;
+font-size: 26px;
+}
+
+#videocol{
+height:900px;
+
+}
+
+#sub{
+height:auto;
+
+}
+#videocol2{
+height:auto;
+
+}
+
+#head{
+  height: 10PX !important;
+padding: 130px 150px ;
+  font-family: segoe ui semibold;
+  color:#fff;
+  font-size:46px
+}
+
+#qfont{
+
+font-size:55px;
+  }
+
+  #dirbutlast{
+  width:400px;height:152px; padding:47px 37px;
+
+ background-image: url('../images/player/last.png') !important;
+ 
+background-size:cover;
+font-size:26px;
+
+}
+
+
+#dirbutnext{
+  width:400px;height:152px; padding:47px 50px;
+font-size:26px;
+
+ background-image: url('../images/player/nextt.png') !important;
+
+background-size:cover;
+
+
+
+}
+
+#qstnbottomin{
+font-size: 23px;
+  width:590px;
+  height: 86px;
+  border-radius: 50px;
+}
+.segmentbutton{
+
+width:250px !important;
+padding: 10px 16px !important;
+height:80px !important;
+border-radius: 29px !important;
+
+font-size: 28px;
+
+}
+#table{width: 50% }
+
+#bottomrow{
+
+  padding-top: 100px;
+}
+
+  }
+
+
+@media only screen and (max-width: 2600px) {
+
+  .but{
+  
+
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  font-size: 26px;
+
+
+}
+
+.butactive{
+  border:3px solid #35D5DE;
+  background: white;
+  height:60px;
+  width:60px;
+font-size: 26px;
+}
+
+#videocol{
+height:auto;
+
+}
+
+#sub{
+height:auto;
+
+}
+#videocol2{
+height:auto;
+
+}
+
+#head{
+
+  font-family: segoe ui semibold;color:#fff;font-size:32px
+}
+
+#qfont{
+
+font-size:35px;
+  }
+
+  #dirbutlast{
+  width:350px;height:122px; padding:47px 37px;
+
+ background-image: url('../images/player/last.png') !important;
+ 
+background-size:cover;
+font-size:26px;
+
+}
+
+
+#dirbutnext{
+  width:350px;height:122px; padding:47px 50px;
+font-size:26px;
+
+ background-image: url('../images/player/nextt.png') !important;
+
+background-size:cover;
+
+
+
+}
+
+#qstnbottomin{
+font-size: 23px;
+  width:460px;
+  height: 86px;
+}
+.segmentbutton{
+
+width:210px !important;
+padding: 6px 12px !important;
+height:60px !important;
+border-radius: 24px !important;
+
+font-size: 28px;
+
+}
+
+  }
+
+
+
+
+
